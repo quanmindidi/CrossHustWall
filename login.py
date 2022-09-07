@@ -5,8 +5,8 @@ import time
 from libhustpass import main
 import sys
 
-ticket = main.doLogin(os.environ['M202271385'],os.environ['Yth88861072'],"http://access.hust.edu.cn/IDKJ-P/P/studentApi")
-print(os.environ['M202271385'],os.environ['Yth88861072'])
+ticket = main.doLogin(os.environ['USERNAME'],os.environ['Yth88861072'],"http://access.hust.edu.cn/IDKJ-P/P/studentApi")
+print(os.environ['USERNAME'],os.environ['Yth88861072'])
 #print(ticket)
 
 from selenium import webdriver
